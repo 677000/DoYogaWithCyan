@@ -9,6 +9,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Star } from "lucide-react"
+import { ProductCard } from "@/components/ProductCard"
 
 export default function ShowcasePage() {
   const { t } = useLanguage()
@@ -111,7 +112,7 @@ export default function ShowcasePage() {
         <TabsContent value="all" className="mt-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {showcases.map((showcase, index) => (
-              <ShowcaseCard key={showcase.id} showcase={showcase} index={index} t={t} />
+              <ProductCard key={showcase.id} product={showcase} index={index} t={t} />
             ))}
           </div>
         </TabsContent>

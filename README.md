@@ -1,5 +1,24 @@
-这个项目是做外贸时帮助自己拓客用的。留念一份屎代码，重复利用当前的仓库拷贝一份，作为一个瑜伽网站。
+瑜伽网站
+# DoYogaWithCyan
 
+https://www.yogaedition.com.tw/
+
+https://yogajourney.com.tw/
+
+网站板块：
+首页、关于我们、课程介绍（瑜伽、垫上普拉提、私人课程（私教、精品小团课）、呼吸、冥想。。。10min/15min/30min/45min/60min）、
+线上课-课程表、线下课-课程表、预约体验、会员定课、最新消息
+
+网站数据库板块：
+分为最新消息、瑜伽课程、瑜伽论坛、好物推荐、会员管理等数据库板块。
+
+# 使用notion数据库：
+1. 针对Notion空间构建集成：https://www.notion.so/profile/integrations
+2. 给集成授予数据库访问权限
+3. 保存集成密钥：ntn_W81430474136khOKT6hBH1A8RkTlQPyUTNpcdeyRxWD8z8
+4. 获取数据库ID：2371e55d0af580f88ff5f6172ab7b87f?v=2371e55d0af58001967d000c71669184
+5. 使用API连接数据库
+6. 安装依赖：npm install @notionhq/client dotenv
 
 
 这个项目提供了一个完整的全栈网站框架，
@@ -20,7 +39,7 @@ deactivate
 - 无效依赖排查：【depcheck】
 
 ## todo:
-- 整体网站项目的托管。【阿里云服务器，最少1000+¥/年。vercel免费】
+- 整体网站项目的托管。【阿里云服务器，最少1000+¥/年。vercel免费】✅
 - 设置页面404 重定向-建设中...
 - 构建工具配置优化（支持热更新、代码分割、懒记载、环境变量。。。）、性能优化、无效依赖排查和删除【depcheck】
 - 工具：todo

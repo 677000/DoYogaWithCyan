@@ -10,7 +10,7 @@ export default function Footer() {
   const navigation = [
     { name: `${t("nav.home")}`, href: "/" },
     { name: t("nav.products"), href: "/products", disabled: true },
-    { name: `${t("nav.intelligence")} developing...`, href: "/intelligence", disabled: true },
+    { name: `${t("nav.scheduler")} developing...`, href: "/scheduler", disabled: true },
     { name: t("nav.news"), href: "/news" },
     { name: `${t("nav.about")}`, href: "/about" },
     { name: t("nav.learning"), href: "/learning", disabled: true },
@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-3">
             <Link href="/" className="font-bold text-xl">
-              <span className="text-primary">CyanSarong77</span> :-)
+              <span className="text-primary">DoYogaWithSasa</span> :-)
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">{t("contact.description")}</p>
           </div>
@@ -162,7 +162,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center mt-8 pt-8 border-t">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} CyanSarong77. {t("footer.copyright")}.
+            &copy; {new Date().getFullYear()} DoYogaWithSasa. {t("footer.copyright")}.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">

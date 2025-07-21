@@ -10,9 +10,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cyan3dScanningSolutions",
-  description: "A modern website built with Next.js",
-    generator: 'v0.dev'
+  title: "DoYogaWithSasa",
+  description: "A website built with yoga class",
+    generator: 'Sasa'
 }
 
 export default function RootLayout({
